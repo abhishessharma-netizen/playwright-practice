@@ -13,3 +13,4 @@ export class LoginPage {
     await this.page.getByRole('button', { name: 'Login' }).click();
   }
 }
+
